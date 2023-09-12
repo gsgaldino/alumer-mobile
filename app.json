@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Alumer Mobile",
+    "slug": "alumer-mobile",
+    "scheme": "alumermobile",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#49C0B6"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O App Alumer precisa da sua permissão para acessar suas fotos."
+        }
+      ]
+    ]
+  }
+}
